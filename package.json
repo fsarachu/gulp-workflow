@@ -1,0 +1,18 @@
+{
+  "name": "gulp-workflow",
+  "version": "0.0.1",
+  "description": "Trying out gulp.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsarachu/gulp-workflow.git"
+  },
+  "author": "Franco Sarachu <fsarachu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsarachu/gulp-workflow/issues"
+  },
+  "homepage": "https://github.com/fsarachu/gulp-workflow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
