@@ -14,6 +14,7 @@
   "homepage": "https://github.com/fsarachu/gulp-workflow#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "node-sass": "^3.8.0",
     "gulp-sass": "^2.3.2"
   }
 }
