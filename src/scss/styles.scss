@@ -2,6 +2,8 @@ $bgColor: #CF4646;
 $fgColor: #FFFFFF;
 
 body {
+  font-family: sans-serif;
+  text-align: center;
   background-color: $bgColor;
   color: $fgColor;
 }
