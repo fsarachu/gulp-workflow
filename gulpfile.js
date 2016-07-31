@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var cleanCss = require('gulp-clean-css');
 var browserSync = require('browser-sync').create();
 
 gulp.task('sass', function () {
@@ -9,6 +10,12 @@ gulp.task('sass', function () {
       .pipe(browserSync.reload({
         stream: true
       }))
+});
+
+gulp.task('cleanCss', ['sass'], function () {
+  return gulp.src('src/css/all.css')
+      .pipe(cleanCss())
+      .pipe(gulp.dest('dist/styles.css/'));
 });
 
 gulp.task('watch', ['browserSync', 'sass'], function () {

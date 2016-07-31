@@ -13,8 +13,11 @@
   },
   "homepage": "https://github.com/fsarachu/gulp-workflow#readme",
   "devDependencies": {
+    "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
-    "node-sass": "^3.8.0",
-    "gulp-sass": "^2.3.2"
+    "gulp-clean-css": "^2.0.12",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "node-sass": "^3.8.0"
   }
 }
